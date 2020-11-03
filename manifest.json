@@ -1,0 +1,23 @@
+{
+    "name": "Google Meet Hacks",
+    "version": "1.0",
+    "description": "Auto Leave and Reply in Google Meet",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ],
+    "icons": {
+        "128": "icon.png"
+    }
+}

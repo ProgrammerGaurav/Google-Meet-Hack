@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="title">
+        Google Meet Hack
+    </div>
+    <div class="meet">
+        <div class="noOfPart">
+            No. of Participants : <span id="noOfParticipant">0</span>
+        </div>
+        <div class="subtitle">
+            Enter the number of participants remaining, below which you want to exit the meeting.
+        </div>
+        <div class="data">
+            <input type="number" name="" id="requiredParticipantToExit" min="1" value="2">
+            <input type="button" value="Confirm" id="confirm">
+        </div>
+    </div>
+    <div class="running hide">
+        <div class="subtitle">
+            Meeting Will be Leaved Soon.
+        </div>
+        <div class="cancelButton">
+            Cancel
+        </div>
+    </div>
+    <div class="nomeet hide">
+        <div class="noOfPart">
+            Meeting is not Started.
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
