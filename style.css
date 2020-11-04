@@ -75,7 +75,7 @@ body {
 }
 
 .cancelButton {
-    margin-bottom: 50px;
+    margin: 40px 0px;
     display: inline;
     padding: 10px 40px;
     font-size: 20px;
@@ -90,4 +90,15 @@ body {
 
 .cancelButton:hover {
     background-color: #6e00c2;
+}
+
+.social {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.social a {
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0px 30px;
 }
