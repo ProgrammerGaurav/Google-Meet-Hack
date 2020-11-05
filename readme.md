@@ -3,6 +3,6 @@
 ## How To Install
 - Download The [Zip File](https://github.com/ProgrammerGaurav/Google-Meet-Hack/archive/master.zip) and extract it.
 - Open Chrome Browser and click on option button
- ![Open Option Button](https://raw.githubusercontent.com/ProgrammerGaurav/Google-Meet-Hack/master/img/howToInstall1.png)
+   <img src="https://raw.githubusercontent.com/ProgrammerGaurav/Google-Meet-Hack/master/img/howToInstall1.png" width="50%">
  - Select More Tools and then select Extensions in Option Menu
  - ![](https://raw.githubusercontent.com/ProgrammerGaurav/Google-Meet-Hack/master/img/howToInstall2.png)
