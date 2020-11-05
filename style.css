@@ -7,6 +7,7 @@ body {
     width: 500px;
     margin: 0;
     border: 1px solid #8C00F8;
+    box-sizing: border-box;
 }
 
 .title {
@@ -56,7 +57,7 @@ body {
     color: #fff;
     outline: none;
     background-color: #8C00F8;
-    border: 1px solid #8C00F8;
+    border: 2px solid #8C00F8;
     transition: all 0.1s ease;
     cursor: pointer;
 }
