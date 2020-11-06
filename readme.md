@@ -1,4 +1,8 @@
 # Google Meet Hack
+## Description 
+I usually Bunk my online lecture but I used to forget to leave the meeting after the lecture is finished. So, my teacher used to ask me what I do on google meet after the lecture is finished.\
+So I made this Google Chrome Extension which auto leaves meet when the no. of participants is decreased to a certain limit.\
+For Eg: If the no. of participants is decreased to 20 then the meet will be exited automatically.
 ## How To Install
 - Download The [Zip File](https://github.com/ProgrammerGaurav/Google-Meet-Hack/archive/master.zip) and extract it.
 - Open Chrome Browser and click on option button.
