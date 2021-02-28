@@ -9,6 +9,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 
         } else {
             document.getElementById('noOfParticipant').innerHTML = request.noOfParticipants;
+            document.getElementById('requiredParticipantToExit').value = Math.round(request.noOfParticipants/2);
 
             document.getElementById('confirm').addEventListener('click', () => {
                 const requiredParticipantToExit = document.getElementById('requiredParticipantToExit').value;
