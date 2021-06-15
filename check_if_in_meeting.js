@@ -3,16 +3,16 @@ window.onbeforeunload = function (e) {
 };
 var url = window.location.hostname;
 if (url.includes('meet')) {
-    if (document.getElementsByClassName('wnPUne').length > 0) {
+    if (document.getElementsByClassName('uGOf1d').length > 0) {
         var meet = true;
     } else {
         var meet = false;
     }
 }
-if (document.getElementsByClassName('wnPUne').length > 0) {
+if (document.getElementsByClassName('uGOf1d').length > 0) {
     chrome.runtime.sendMessage({
         meet: meet,
-        noOfParticipants: document.querySelector('.wnPUne').innerHTML,
+        noOfParticipants: document.querySelector('.uGOf1d').innerHTML,
         running: localStorage.getItem('running')
     });
 
