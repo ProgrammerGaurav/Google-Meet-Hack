@@ -10,5 +10,4 @@ function exit() {
 
 var requiredParticipantToExit = parseInt(localStorage.getItem("requiredParticipantToExit"));
 var running = localStorage.getItem('running');
-console.log(requiredParticipantToExit, parseInt(document.querySelector('.uGOf1d').innerHTML));
 var exitInt = setInterval(exit, 1000);
