@@ -2,7 +2,7 @@ function exit() {
   if (running) {
     if (requiredParticipantToExit > parseInt(document.querySelector('.uGOf1d').innerHTML)) {
       localStorage.removeItem('running');
-      document.querySelector('button[aria-label="Leave call"]').click()
+      document.querySelector('.ftJPW').click()
       clearInterval(exitInt);
     }
   }
