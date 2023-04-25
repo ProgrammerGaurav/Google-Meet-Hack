@@ -1,23 +1,32 @@
 {
-    "name": "Google Meet Hacks",
-    "version": "1.0",
-    "description": "Auto Leave and Reply in Google Meet",
-    "manifest_version": 2,
-    "background": {
-        "scripts": [
-            "background.js"
-        ],
-        "persistent": false
+    "manifest_version": 3,
+    "name": "Google Meet Hack v3",
+    "description": "A google meet exitor with manifest v3",
+    "version": "0.0.1",
+    "icons": {
+        "16": "logo/logo-16.png",
+        "48": "logo/logo-48.png",
+        "128": "logo/logo-128.png"
     },
-    "browser_action": {
-        "default_popup": "popup.html",
-        "default_icon": "icon.png"
+    "action": {
+        "default_title": "Chrome Addon v3 Starter",
+        "default_popup": "popup/popup.html"
     },
     "permissions": [
+        "background",
+        "tabs",
         "activeTab",
-        "tabs"
+        "storage",
+        "webRequest"
     ],
-    "icons": {
-        "128": "icon.png"
-    }
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "content_scripts": [{
+        "js": ["foreground.js"],
+        "matches": ["https://meet.google.com/*"]
+    }]
 }

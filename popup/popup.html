@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="popup.css">
 </head>
 
 <body>
@@ -18,8 +18,10 @@
             Enter the number of participants remaining, below which you want to exit the meeting.
         </div>
         <div class="data">
-            <input type="number" name="" id="requiredParticipantToExit" min="1" value="2" autofocus="autofocus">
-            <input type="button" value="Confirm" id="confirm">
+            <form>
+                <input type="number" name="" id="requiredParticipantToExit" min="1" max="999" value="2" autofocus="autofocus">
+                <input type="submit" class="cancelButton" value="Confirm" id="confirm">
+            </form>
         </div>
     </div>
     <div class="running hide">
@@ -36,13 +38,9 @@
         </div>
     </div>
     <div class="social">
-        <a title="Github profile Link" target="blank" href="https://github.com/programmergaurav">
-            <i class="fab fa-github"></i>
-        </a>
-        <a title="Instagram profile link" target="_blank" href="https://www.instagram.com/programmergaurav/">
-            <i class="fab fa-instagram"></i>
-        </a>
-    </div>
+        <div class="subtitle">
+            Fixed with <i class="fas fa-heart"></i> by <a style="font-size: medium;" href="https://github.com/yoxmo">Yoxmo</a>
+        </div>
     <script src="popup.js"></script>
 </body>
 
