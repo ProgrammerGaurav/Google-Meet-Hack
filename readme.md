@@ -2,8 +2,8 @@
 
 ## Description
 
-I also usually leave my online lectures but I used to forget to leave the meeting after the lecture is finished.\
-So I made this extension, inspired by ProgrammerGaurav, which auto leaves meet when the # of participants is at a certain amount.\
+I also usually skip my online lectures but Im always forgetting to leave the meeting after the lecture is finished.
+So I made this extension, inspired by ProgrammerGaurav, which auto leaves meet when the # of participants is at a certain amount. 
 
 Ex: If the no. of participants drops down from 20 to 3 then the meet will automatically get ended.
 
