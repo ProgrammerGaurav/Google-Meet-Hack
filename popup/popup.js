@@ -3,7 +3,7 @@ addEventListener("submit", (event) => {});
 
 onsubmit = (event) => {myfunc()};
 
-function myfunc() {
+async function myfunc() {
 
     let people = document.getElementById('requiredParticipantToExit').value;
 
@@ -12,3 +12,17 @@ function myfunc() {
     chrome.storage.session.set({people: parseInt(people.toString())});
 
 }
+
+
+async function requestContent() {
+
+let content = await chrome.storage.session.get('people');
+let total = "idk lol sorry";
+
+
+document.getElementById('noOfParticipant').innerText = content.people;
+document.getElementById('totalNum').innerText = total;
+
+}
+
+requestContent();
