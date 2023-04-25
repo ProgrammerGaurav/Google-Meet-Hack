@@ -7,6 +7,15 @@ So I made this extension, inspired by ProgrammerGaurav, which auto leaves meet w
 
 Ex: If the no. of participants drops down from 20 to 3 then the meet will automatically get ended.
 
+## PLEASE READ
+
+If it isnt working for you after you install this please go to console and put a picture of the error in issues.
+ALSO please make sure to reload the page after installing it wont setup the # of people if you don't reload.
+ALSO last one i promise, make sure your screen is wide enough for the number of people to be visible if you cant see it the code cant see it.
+
+TODO: 
+Make this for zoom :/
+
 ## How To Install
 
 -   Download The [Zip File](https://github.com/ProgrammerGaurav/Google-Meet-Hack/archive/master.zip) and extract it.
