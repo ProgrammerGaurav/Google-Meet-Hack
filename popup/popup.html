@@ -1,47 +1,46 @@
-<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <link rel="stylesheet" href="popup.css">
-</head>
-
-<body>
-    <div class="title">
-        Google Meet Hack
-    </div>
-    <div class="meet">
-        <div class="noOfPart">
-            No. of Participants : <span id="noOfParticipant">0</span>
-        </div>
-        <div class="subtitle">
-            Enter the number of participants remaining, below which you want to exit the meeting.
-        </div>
-        <div class="data">
-            <form>
-                <input type="number" name="" id="requiredParticipantToExit" min="1" max="999" value="2" autofocus="autofocus">
-                <input type="submit" class="cancelButton" value="Confirm" id="confirm">
+   <head>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+      <link rel="stylesheet" href="popup.css">
+   </head>
+   <body>
+      <div class="title">
+         Google Meet Hack
+      </div>
+      <div class="meet">
+         <div class="noOfPart">
+            No. of Participants : <span id="noOfParticipant">1</span>
+         </div>
+         <div class="subtitle">
+            If the number above equals the number of people in the meeting the program will exit you out of the meeting.
+         </div>
+         <div class="subtitle" style="font-size: smaller;margin: 0px;">
+            Total number remaining: <span id="totalNum">idk lol sorry</span>
+         </div>
+         <div class="data" style="
+            margin: 0px;
+            ">
+            <form style="
+               padding: 0px;
+               margin: 0px;
+               ">
+               <input type="number" name="" id="requiredParticipantToExit" min="1" max="999" placeholder="Enter number here" autofocus="autofocus" style="
+                  margin-left: 45px;
+                  ">
+               <input type="submit" class="cancelButton" value="Confirm" id="confirm">
             </form>
-        </div>
-    </div>
-    <div class="running hide">
-        <div class="subtitle">
-            Meeting Will be Leaved Soon.
-        </div>
-        <div class="cancelButton">
-            Cancel
-        </div>
-    </div>
-    <div class="nomeet hide">
-        <div class="noOfPart">
-            Meeting is not Started.
-        </div>
-    </div>
-    <div class="social">
-        <div class="subtitle">
+         </div>
+      </div>
+      <div class="social" style="
+         margin: 0px;
+         ">
+         <div class="subtitle" style="
+            margin: 0px;
+            margin-bottom: 40px;
+            ">
             Fixed with <i class="fas fa-heart"></i> by <a style="font-size: medium;" href="https://github.com/yoxmo">Yoxmo</a>
-        </div>
-    <script src="popup.js"></script>
-</body>
-
+         </div>
+         <script src="popup.js"></script>
+      </div>
+   </body>
 </html>
