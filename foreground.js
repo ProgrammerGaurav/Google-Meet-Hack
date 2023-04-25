@@ -4,6 +4,9 @@
 // Several foreground scripts can be declared
 // and injected into the same or different pages.
 
+// Since foreground will only work in meets theres no reason to check url, and 
+// since there is no calls there is no need for external js files
+
 
 async function requestContent() {
     let content = await chrome.storage.session.get('people');
