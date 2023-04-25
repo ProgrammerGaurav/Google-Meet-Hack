@@ -18,7 +18,7 @@ Make this for zoom :/
 
 ## How To Install
 
--   Download The [Zip File](https://github.com/ProgrammerGaurav/Google-Meet-Hack/archive/master.zip) and extract it.
+-   Download The [Zip File](https://github.com/Yoxmo/GMHv3-Google-Meet-Hack/releases/download/ForTheDummies/GMHv3-Google-Meet-Hack.zip) and extract it.
 -   Open Chrome Browser and click on option button.
      <p>
       <img src="https://raw.githubusercontent.com/ProgrammerGaurav/Google-Meet-Hack/master/img/howToInstall1.png" width="50%">
